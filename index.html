@@ -8,5 +8,54 @@
 <body>
     <h1>Minha pagina inicial</h1>
     <H2>Adicionano H2</H2>
+
+    <p>criando um passo a passo de como criar um repositorio no github</p>
+    <P>
+        git init - Inicializar um repositorio (Automaticamente cria uma branch master)
+git clone - Obter um projeto (Clonar um projeto) 
+git add. ou git add <!--nomme_arquivo--> - Adcionar arquivos no git para monitoramento
+git commit -m 'mensagem de commit' - Mensagem de commit (Comentarios)
+git push - Publicar alteracoes e commits
+git pull - Atualiza meu repositorio local conforme o repositorio remoto
+git merge - Juntar as Branchs ou resolucao de conflitos (Ex. vc ta alterando um arquivo e um outro
+desenvolvedor esta alterando o mesmo arquivo, o sistema ira informa atraves 
+do terminal que existe um conflito no arquivo tal e devera resolver isso 
+manualmente
+git status - Ira nos fornecer o estado atual do nosso projeto
+git log - Ira devolver pro dev o historico de alteracoes do projeto
+git branch <!--nome da branch--> - Cria uma outra ramificacao fora da master antes 
+de ir para a producao e depois de ter feito as alteracoes joga para a master 
+e vai para producao.
+
+touch nome do arquivo - ira criar um arquivo em seu repositorio (Ex. touch index.html) - Linux
+
+Repositorio local é aquele que esta na sua maquina (Git Init)
+Repositorio Remoto é aquele que esta no servidor, é aquele que esta sendo
+distribuido por todos do time
+
+Sempre vc vai fazer seus commits em seu repositorio local e vai fazer um 
+push pro seu repositorio remoto para que essa auteracao que vc fez em sua 
+maquina fique disponivel para os outros desenvolvedores
+
+pull request - O dono do projeto visualiza o push feito e verifica se aceita ou nao aquela 
+atualizacao
+
+Inicializando no github
+1 - Criar um repositorio no github
+2 - Executar o comando git remote add <!--Link do repositorio-->
+Obs: caso eu queira remover um repositorio executar o comando - git remote rm origin
+3 - git push -u origin master (Vai enviar para o repositorio remoto as auteracoes)
+
+Fazendo auteracoes no repositorio remoto
+
+Depois de fazer as auteracoes no meu projeto seguir os seguintes passos.
+
+1 - git status
+2 - git add <!--nome do arquivo-->
+3 - git commit -m "digite aqui o comitt da auteracao"
+4 - git status
+5 - git log (Mostra os commits que foram executados)
+6 - git push (Envia todas as auteracoes para o servidor remoto)
+    </P>
 </body>
 </html>
